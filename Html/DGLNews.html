@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../Css&php/Mystyle.css"
+  type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<style>
+  body {
+      overflow: auto;
+    }
+  </style>
+    
+  <video autoplay muted loop id="video-bg">
+      <source src="../image/ezio-assassins-creed-ii-moewalls-com.mp4" type="video/mp4">
+      <!-- Add additional video formats (e.g., WebM, Ogg) for better browser compatibility -->
+  </video>
+
+  <ul class="navbar">
+    <li> <img src="../image/PSX_1716903746313-removebg-preview.png" style="width: 100%" height="50"> </li>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="Gstorys.html">Gstorys</a></li>
+      <li><a href="AboutUs.html">About Us</a></li>
+      <li><a href="SignUp.html">SignUp</a></li>
+      <li><a href="DGLNews.html">DGLNews</a></li>
+  </ul>
+  <br>
+
+<h2 align="center">GNews</h2>
+<p></p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="../image/Ghost-of-Tsushima-sunset-art.avif" style="width:100%" height="500">
+  <div class="text">Ghost of Tsushima Is Another Solid, Slightly Unambitious, PlayStation PC Port <a href="https://www.gamespot.com/articles/ghost-of-tsushima-is-another-solid-slightly-unambitious-playstation-pc-port/1100-6523865/"> read more</a>
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="../image/nfs.jpeg" style="width:100%" height="500">
+  <div class="text"> NFS Mobile Announcement Trailer Reveals Gameplay, Hints at Upcoming Beta and More Details   <a href="https://in.ign.com/need-for-speed-heat/207290/news/nfs-mobile-announcement-trailer-reveals-gameplay-and-more-details">  read more</a></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="../image/ZRh8NTAM27ghXYht9T4XtX-1200-80.jpg.webp" style="width:100%" height="500">
+  <div class="text">The latest overnight survival game fixation blends a Mesoamerican theme,Bionicle masks <a href="https://www.pcgamer.com/games/survival-crafting/the-latest-overnight-survival-game-fixation-blends-a-mesoamerican-theme-bionicle-masks-and-the-occasional-destiny-guy/">  read more</a></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html> 
