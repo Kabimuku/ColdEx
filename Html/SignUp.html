@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../Css&php/Mystyle.css"
+    type="text/css">
+    <title>ColdEx</title>
+    
+<body>
+    <video autoplay muted loop id="video-bg">
+        <source src="../image/winter-house-red-dead-redemption-2-moewalls-com.mp4" type="video/mp4">
+        <!-- Add additional video formats (e.g., WebM, Ogg) for better browser compatibility -->
+    </video>
+<ul class="navbar">
+    <li> <img src="../image/PSX_1716903746313-removebg-preview.png" style="width: 100%" height="50"> </li>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="Gstorys.html">Gstorys</a></li>
+    <li><a href="AboutUs.html">About Us</a></li>
+    <li><a href="SignUp.html">SignUp</a></li>
+    <li><a href="DGLNews.html">DGLNews</a></li>
+</ul>
+    <h1 style="text-align: center;"><a href="Admin.html">SignUp</a></h1>
+    <hr>
+    <form action="home.html" method="post">
+        <fieldset>
+            <legend class="LKG1">Signup Form</legend>
+            <table class="LKG1">
+                <tr>
+                    <td>Enter Your Name:</td>
+                    <td><input type="text" name="username" required></td>
+                </tr>
+                <tr>
+                    <td>Enter Your Father's Name:</td>
+                    <td><input type="text" name="fathername" required></td>
+                </tr>
+                <tr>
+                    <td>Select Your Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="M"> Male
+                        <input type="radio" name="gender" id="female" value="F"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter Your Date of Birth:</td>
+                    <td><input type="date" id="dob" name="dob"></td>
+                </tr>
+                <tr>
+                    <td>Select Your Blood Group:</td>
+                    <td>
+                        <select name="bloodgroup">
+                            <option value="O+">O+</option>
+                            <option value="B+">B+</option>
+                            <option value="A+">A+</option>
+                            <option value="AB+">AB+</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter Your Contact Address:</td>
+                    <td><textarea cols="35" rows="5" name="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Enter Your Email ID:</td>
+                    <td><input type="email" name="email" size="25" required></td>
+                </tr>
+                <tr>
+                    <td>Enter Your Mobile No:</td>
+                    <td><input type="number" name="mobile" pattern="[0-9]{10}" required></td>
+                </tr>
+                <tr>
+                    <td>Select Your Course:</td>
+                    <td>
+                        <select name="course">
+                            <option value="CSE">CSE</option>
+                            <option value="ECE">ECE</option>
+                            <option value="EEE">EEE</option>
+                            <option value="MEC">MEC</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter Your College Name:</td>
+                    <td><input type="text" name="college" required></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <center>
+        <input type="submit" value="Submit" name="btn2"> &
+        <input type="reset" value="Reset"> </center>
+    </form>
+</body>
+</html>
