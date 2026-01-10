@@ -3,6 +3,30 @@
     {
       "source": "/",
       "destination": "/Html/home.html"
+    },
+    {
+      "source": "/home.html",
+      "destination": "/Html/home.html"
+    },
+    {
+      "source": "/Gstorys.html",
+      "destination": "/Html/Gstorys.html"
+    },
+    {
+      "source": "/AboutUs.html",
+      "destination": "/Html/AboutUs.html"
+    },
+    {
+      "source": "/SignUp.html",
+      "destination": "/Html/SignUp.html"
+    },
+    {
+      "source": "/DGLNews.html",
+      "destination": "/Html/DGLNews.html"
+    },
+    {
+      "source": "/Admin.html",
+      "destination": "/Html/Admin.html"
     }
   ]
 }
